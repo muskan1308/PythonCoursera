@@ -5,8 +5,7 @@ import random
 import simplegui
 
 number=0
-count2 = 10
-count1 = 5
+count = 0
 
 # helper function to start and restart the game
 def new_game():
@@ -28,7 +27,7 @@ def range100():
     global count
     count =7
     number =  random.randrange(0,100)
-    print number
+   
   
     # button that changes the range to [0,100) and starts a new game 
     
@@ -41,7 +40,7 @@ def range1000():
     number = random.randrange(0,1000)
     global count 
     count = 10
-    print number
+    
     
     
 def input_guess(guess):
